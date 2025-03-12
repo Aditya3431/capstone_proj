@@ -1,2 +1,2 @@
-# capstone_proj
-this is end  to end project for text recognition
+# YT-Capstone-Project
+This is an end to end mlops capstone project for educational purpose.

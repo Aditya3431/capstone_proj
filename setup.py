@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='this is end to end project',
-    author='Aditya Yadav',
-    license='MIT',
+    description='This is an end to end mlops proj',
+    author='Vikash Das',
+    license='',
 )
