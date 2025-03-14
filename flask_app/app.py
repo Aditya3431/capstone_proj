@@ -69,9 +69,9 @@ def normalize_text(text):
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-# mlflow.set_tracking_uri('https://dagshub.com/vikashdas770/YT-Capstone-Project.mlflow')
-# dagshub.init(repo_owner='vikashdas770', repo_name='YT-Capstone-Project', mlflow=True)
-# -------------------------------------------------------------------------------------
+# mlflow.set_tracking_uri('https://dagshub.com/Aditya3431/capstone_proj.mlflow')
+# dagshub.init(repo_owner='Aditya3431', repo_name='capstone_proj', mlflow=True)
+# # -------------------------------------------------------------------------------------
 
 # Below code block is for production use
 # -------------------------------------------------------------------------------------
