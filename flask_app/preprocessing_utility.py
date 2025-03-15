@@ -35,7 +35,7 @@ def preprocess_text(text):
         LEMMATIZER.lemmatize(re.sub(r'\d+', '', word))  # Remove numbers and lemmatize
         for word in words if word not in STOP_WORDS
     ]
-
+    
     # Remove punctuation
     cleaned_text = ' '.join(words)
     cleaned_text = re.sub(f"[{re.escape(string.punctuation)}]", " ", cleaned_text)
