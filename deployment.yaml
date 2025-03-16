@@ -18,7 +18,7 @@ spec:
         - name: ecr-secret  # 🔹 Secret for pulling from private ECR
       containers:
         - name: flask-container
-          image: <AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com/<ECR_REPOSITORY>:latest
+          image: 020866158197.dkr.ecr.us-east-1.amazonaws.com/flask-app:latest
           ports:
             - containerPort: 5000
           env:
